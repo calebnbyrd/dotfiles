@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 DIR="$HOME/.config/wallpapers/"
+CACHE="$HOME/.cache/last_wallpaper"
 
 # Collect images
 IMAGES=$(find "$DIR" -maxdepth 1 -type f \
@@ -41,3 +42,6 @@ WALL="$DIR$IMG"
 # Apply with hyprpaper
 hyprctl hyprpaper preload "$WALL"
 hyprctl hyprpaper wallpaper ",$WALL"
+
+# Cache selected wallpaper for next boot
+echo "$WALL" >"$CACHE"
