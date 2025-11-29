@@ -12,6 +12,7 @@ abbr -a n nvim
 abbr -a p python
 abbr -a c claude
 abbr -a es "cd ~/esim; source .venv/bin/activate.fish"
+abbr -a re "python src/main.py"
 
 # Initialize starship
 starship init fish | source
