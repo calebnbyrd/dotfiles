@@ -53,7 +53,7 @@
 		"format-linked": " {ifname} (No IP)",
 		"format-disconnected": "Disconnected ⚠ {ifname}",
 		// "format-alt": " {ifname}: {ipaddr}/{cidr}",
-		"on-click": "impala",
+		"on-click": "ghostty --title=\"impala\" -e impala &",
 	},
 	"pulseaudio": {
 		"scroll-step": 5, // %, can be a float
