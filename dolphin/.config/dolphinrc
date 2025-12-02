@@ -1,6 +1,7 @@
 [General]
 Version=202
 ViewPropsTimestamp=2025,11,25,22,39,18.715
+TerminalApplication=ghostty
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
