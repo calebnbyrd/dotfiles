@@ -10,7 +10,7 @@ abbr -a gp git push
 abbr -a lg lazygit
 abbr -a n nvim
 abbr -a p python
-abbr -a c claude
+abbr -a c codex
 abbr -a es "cd ~/esim; source .venv/bin/activate.fish"
 abbr -a e1 "cd ~/esim-agent1; source ~/esim/.venv/bin/activate.fish"
 abbr -a e "python src/main.py &; sleep 0.5; hyprctl dispatch setfloating; hyprctl dispatch resizeactive exact 1920 1080; hyprctl dispatch centerwindow"
